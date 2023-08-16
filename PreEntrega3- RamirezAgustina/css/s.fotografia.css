@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+@font-face {
+    font-family:"bitcheese";
+    src: url(./font/Bitcheese.ttf);
+    font-family: "asap";
+    src: url(./font/Asap-Italic-VariableFont_wdth\,wght.ttf)
+}
+
+@media (min-width:1080px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .conteiner{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        
+    }
+    button{
+        margin: 0;
+    }
+    body .galleria{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+        margin: auto;
+        box-shadow: 30px;
+    }
+    body .galleria img {
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin: 10px;
+        
+    }
+
+   
+
+}
+header{
+    background-color: rgb(0, 0, 51);
+    box-shadow: 6px;
+}
+.conteiner{
+    max-width: 1300px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo{
+    margin:0;
+    padding: 25px 30px;
+    font-family: "bitcheese";
+    color: rgb(204, 51, 51);
+    font-size: 30pt;
+
+}
+
+.portfolio{
+    margin: 0px;
+    padding: 25px 25px;
+
+    font-family: "bitcheese";
+    color:rgb(255, 255, 204);
+    font-size: 30pt;
+}
+
+header nav{
+    
+    flex-direction: column;
+    
+}
+header a{
+    text-align: center;
+    font-family: "asap";
+    font-size: 16pt;
+    padding: 30px 10px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(204, 51, 51);
+}
+
+body{
+    margin: 0;
+    max-width: 1980px;
+
+    background-color: rgb(0, 0, 51);
+}
+.galleria {
+    padding: 60px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+    box-shadow: 30px;
+    
+    height: 90vh;
+    flex-wrap: wrap;
+    
+}
+
+.galleria img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+}

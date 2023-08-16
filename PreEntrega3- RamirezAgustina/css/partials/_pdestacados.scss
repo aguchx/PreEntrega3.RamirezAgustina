@@ -1,0 +1,34 @@
+.proyectos-destacados{
+    padding: 2rem 12rem;
+    text-align: center;
+    
+    color:rgb(255, 255, 204);
+
+    .titulo-proyecto{
+        color:$rojo;
+        
+        font-size: 30pt;
+        padding-bottom: 4rem;
+        h1{
+            font-family: bitcheese;
+        }
+        
+    }
+    .proyecto-columnas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4rem;
+        i{
+            color:rgb(255, 255, 204);
+            font-size: 30pt;
+
+        }
+
+
+        h2{
+            color:$rojo;
+            font-family: bitcheese;
+            font-size: 30pt;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.presentacion{
+    padding: 2rem 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    align-items: center;
+    gap: 2rem;
+    .texto-presentacion{
+        
+        color:rgb(255, 255, 204);
+        font-size: 16pt;
+        text-align: center;
+        h1{
+            color:$rojo;
+            font-family: bitcheese;
+            font-size: 60pt;
+            
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    color: whitesmoke;
+
+    .logo-header{
+        width: 6rem;
+    }
+    .nav{
+        .menu{
+            list-style-type: none;
+            display:flex ;
+            gap: 2rem;
+        }
+    }
+}
