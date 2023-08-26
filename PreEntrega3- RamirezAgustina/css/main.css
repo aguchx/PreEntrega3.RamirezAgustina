@@ -1,4 +1,54 @@
-@import url(https://fonts.google.com/specimen/Poppins?category=Sans+Serif);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap";
+  background-color: #1C1F44;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url(https://fonts.google.com/specimen/Asap);
+}
+@font-face {
+  font-family: "bitcheese";
+  src: url(https://www.dafont.com/bitcheese.font);
+}
+.proyectos-destacados {
+  padding: 2rem 12rem;
+  text-align: center;
+  color: rgb(255, 255, 204);
+}
+.proyectos-destacados .titulo-proyecto {
+  color: #CC0000;
+  font-family: bitcheese;
+  font-size: 30pt;
+  padding-bottom: 4rem;
+}
+.proyectos-destacados .proyecto-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+.proyectos-destacados .proyecto-columnas i {
+  color: rgb(255, 255, 204);
+  font-size: 30pt;
+}
+.proyectos-destacados .proyecto-columnas h2 {
+  color: #CC0000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 30pt;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -15,101 +65,82 @@
   gap: 2rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins";
-  background-color: #000033;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-@font-face {
-  font-family: "bitcheese";
-  src: url(./font/Bitcheese.ttf);
-}
-.presentacion {
+.hero {
   padding: 2rem 8rem;
   display: grid;
   grid-template-columns: 1fr 1.25fr;
   align-items: center;
   gap: 2rem;
 }
-.presentacion .texto-presentacion {
+.hero .texto-hero {
   color: rgb(255, 255, 204);
   font-size: 16pt;
   text-align: center;
 }
-.presentacion .texto-presentacion h1 {
-  color: #CC3333;
+.hero .texto-hero h1 {
+  color: #CC0000;
   font-family: bitcheese;
   font-size: 60pt;
 }
 
-.proyectos-destacados {
-  padding: 2rem 12rem;
-  text-align: center;
-  color: rgb(255, 255, 204);
-}
-.proyectos-destacados .titulo-proyecto {
-  color: #CC3333;
-  font-size: 30pt;
-  padding-bottom: 4rem;
-}
-.proyectos-destacados .titulo-proyecto h1 {
-  font-family: bitcheese;
-}
-.proyectos-destacados .proyecto-columnas {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 4rem;
-}
-.proyectos-destacados .proyecto-columnas i {
-  color: rgb(255, 255, 204);
-  font-size: 30pt;
-}
-.proyectos-destacados .proyecto-columnas h2 {
-  color: #CC3333;
-  font-family: bitcheese;
-  font-size: 30pt;
-}
-
-.plataformas-cta {
+.plataformas {
   padding: 2rem 12rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
 }
-.plataformas-cta .texto-plataforma h2 {
-  color: #CC3333;
+.plataformas .texto-plataforma h2 {
+  color: #CC0000;
   font-family: bitcheese;
   font-size: 30pt;
   padding-bottom: 1rem;
 }
-.plataformas-cta .texto-plataforma p {
+.plataformas .texto-plataforma p {
   color: rgb(255, 255, 204);
 }
-.plataformas-cta .iconos-plataforma {
-  display: flex;
+.plataformas .iconos-plataforma {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
 }
-.plataformas-cta .iconos-plataforma a {
+.plataformas .iconos-plataforma a {
   color: rgb(255, 255, 204);
   font-size: 30pt;
 }
 
-.footer .footer.top {
+.footer-top {
+  padding: 0rem 12rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+a {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: #CC0000;
+  padding-top: none;
+  padding-bottom: 1rem;
+}
+
+.footer-bottom {
+  padding: 2rem 12rem;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

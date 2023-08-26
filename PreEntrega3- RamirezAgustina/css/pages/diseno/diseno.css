@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap";
+  background-color: #1C1F44;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url(https://fonts.google.com/specimen/Asap);
+}
+@font-face {
+  font-family: "bitcheese";
+  src: url(https://www.dafont.com/bitcheese.font);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  color: whitesmoke;
+}
+.header .logo-header {
+  width: 6rem;
+}
+.header .nav .menu {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-top {
+  padding: 0rem 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+a {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: #CC0000;
+  padding-top: none;
+  padding-bottom: 1rem;
+}
+
+.footer-bottom {
+  padding: 2rem 12rem;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  color: #CC0000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+  font-size: 1rem;
+  align-self: end;
+  background-color: rgb(255, 255, 204);
+}
+.btn i {
+  color: white;
+}
+
+.proyectos {
+  padding: 2rem 12rem;
+  gap: 5rem;
+}
+
+.proyecto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.texto-proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+.texto-proyecto h1 {
+  line-height: 1;
+  color: #CC0000;
+  padding-bottom: 1rem;
+  font-size: 40pt;
+}
+.texto-proyecto p {
+  color: rgb(255, 255, 204);
+  padding-bottom: 1rem;
+}
+
+/*# sourceMappingURL=diseno.css.map */

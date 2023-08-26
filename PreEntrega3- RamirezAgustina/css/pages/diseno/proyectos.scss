@@ -1,0 +1,34 @@
+.proyectos{
+    padding: 2rem 12rem;
+    gap: 5rem;
+
+}
+.proyecto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+}
+
+.texto-proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    
+    h1 {
+        
+        line-height: 1;
+        color: #CC0000;
+        padding-bottom: 1rem;
+        
+        font-size: 40pt;
+            
+    }
+    p{
+        color:rgb(255, 255, 204);
+        padding-bottom: 1rem;
+    }
+
+ }
